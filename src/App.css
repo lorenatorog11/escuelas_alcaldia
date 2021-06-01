@@ -1,0 +1,606 @@
+.fontTittle {
+  font-size: 35px;
+}
+.fontOne{
+  font-size: 36px;
+}
+.fontTittleTwo {
+  font-size: 30px;
+}
+.fontTittleThree {
+  font-size: 27px;
+}
+.fontTittleFour {
+  font-size: 19px;
+}
+.fontTittleFive {
+  font-size: 11px;
+}
+.colorGray{
+  color: #ADADAD;
+}
+.textCenter{
+  text-align: center;
+}
+.colorBlueTwo{
+  background-color: #21B6C5;
+}
+
+/*Initial Page*/
+
+.initialPage{
+  background-image: url(imagesPage/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding-right: 55px;
+}
+.initialForm{
+  max-width: 1280px;
+  margin: 0;
+}
+.initialForm form{
+  width: 752px;
+  height: auto;
+  background-color: rgb(132,224,234,.9);
+  backdrop-filter: blur(30px);
+  border-radius: 50px;
+  opacity: 0.9;
+  margin-left: auto;
+  padding: 31px;
+}
+.initialForm .title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.initialForm .title h1{
+  text-align: justify;
+  margin: 40px 30px 67px 30px;
+}
+.initialForm .logoMedellin{
+  width: 403px;
+  height: auto;
+}
+.initialForm .form .form-control{
+  border-radius: 58px;
+  height: 115px;
+  width: 537px;
+  border-color: transparent;
+  margin-bottom: 38px;
+  box-shadow: 0px 6px 6px #00000029;
+}
+.initialForm .btnFormInicial{
+  width: 404px;
+  height: 86px;
+  border-radius: 58px;
+  box-shadow: 0px 6px 6px #1a8f9b;
+  border: none;
+  margin: 55px 0;
+}
+
+/*Profile Page*/
+.profilePage{
+  background-image: url(imagesPage/background_profile.png);
+}
+.profilePage .backgroundProfile{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  margin: 0 -15px;
+}
+
+/*NavBar*/
+.navBar{
+  height:78px;
+  background-color: #F7FEFF;
+  box-shadow: 0px 6px 3px #00000029;
+  padding: 7px 51px;
+  position: relative;
+  z-index: 2;
+}
+.navBar .navBarlogoMedellin{
+  height: 64px;
+}
+.navBar .navBarClose{
+  height: 64px;
+}
+
+/*Float Menu*/
+.floatMenu{
+  z-index: 2;
+  position: relative;
+  max-width: 1280px;
+}
+.floatMenu .divFloatMenu{
+  width: 59px;
+  height: 57px;
+  background-color: #FAFAFA;
+  box-shadow: 0px 5px 9px #00000015;
+  border-radius: 0px 10px 10px 0px;
+}
+.floatMenu .divFloatMenu img{
+  width: 38px;
+  display: block;
+}
+.textFloatMenu h1{
+  font-size: 20px;
+  color: #1D1D1D;
+}
+
+/*Card Profile*/
+.profiles{
+  position: relative;
+  z-index: 2;
+  padding: 0 5%;
+  margin-top: 51px;
+}
+.divCardProfile{
+  width: 288px;
+  height: 330px;
+  background-color: #FAFAFA;
+  box-shadow: inset 2px 4px 13px 9px #00000015;
+  border-radius: 50px;
+  margin: auto;
+  padding: 10px;
+}
+.imgCardProfile{
+  width: auto;
+  z-index: 2;
+  height: 200px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.textCardProfile{
+  display: none;
+  color: transparent;
+  position: absolute;
+  top: 120px;
+  width: 250px;
+  text-align: center;
+  font-size: 20px;
+  transition: color 100s;
+  margin: 10px 20px;
+}
+.divCardProfile:hover .imgCardProfile{
+  height: 100px;
+  filter: hue-rotate(-48deg);
+}
+.divCardProfile:hover .nameCard{
+  color: #1a8f9b;
+}
+.divCardProfile:hover .textCardProfile{
+  display: block;
+  color: #1D1D1D;
+}
+.cardProfile .nameCard{
+  margin: 10px 0px;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  bottom: 20px;
+  width: 288px;
+  color: black;
+}
+
+/*modifyGroup Page*/
+.modifyGroup {
+  background-image: url(imagesPage/background_modify_group.png);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+
+/*Filter Component*/
+.divGroupFilter{
+  max-width: 1560px;
+  background-color: rgb(222, 230, 231, .9);;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+.titleGroupFilter{
+  background-color: #21B6C5;
+  text-align: center;
+  height: 57px;
+  border-radius: 50px 50px 0px 0px;
+}
+.titleGroupFilter h1{
+  font-size: 20px;
+  color: #1D1D1D;
+}
+.optionFormFilter{
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  height: 52px !important;
+  box-shadow: 3px 3px 0px #00000012;
+  color: #747474;
+  margin: 12px 0px;
+}
+.widthFormFilter{
+  width: 32%;
+}
+.widthFormFilterUser{
+  width: 48%;
+}
+.formFilter{
+  height: auto;
+  padding: 15px;
+}
+
+/*Btn Plus*/
+.BtnPlus{
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 0px #0000001A;
+  transition: box-shadow 2s;
+}
+.faPlusIcon{
+  font-size: 78px;
+  color: #21B6C5;
+  transition: color 1s, font-size 0s;
+}
+.BtnPlus:hover .faPlusIcon{
+  color: #6FBE2B;
+  font-size: 82px;
+}
+.BtnPlus:hover {
+ transform: translate(3px, 3px);
+ box-shadow: none;
+}
+
+/*List Component*/
+.divGroupList{
+  width: 100%;
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  border-radius: 50px 50px 0px 0px;
+}
+.titleGroupList {
+  background-color: #21B6C5;
+  text-align: center;
+  height: 57px;
+  border-radius: 50px 50px 0px 0px;
+}
+.titleGroupList h1{
+  font-size: 20px;
+  color: #1D1D1D;
+}
+.tableList thead tr th:last-child{
+  text-align: center;
+}
+.textTitleList{
+  font-size: 18px;
+}
+.tableListBorder{
+  border-bottom: 1px solid #21B6C5 !important;
+  border-top: none !important;
+}
+.tableList .faPencilAlt{
+  color: #21B6C5;
+}
+/*formMeeting*/
+.formMeeting h3{
+  font-size: 20px;
+}
+.formMeetingEdit h3{
+  font-size: 18px;
+}
+.border{
+  border-bottom: 1px solid #21B6C5 !important;
+}
+.formFilterMeeting{
+  height: auto;
+  padding: 20px;
+}
+.formMeetingEdit .faPencilAlt{
+  color: #21B6C5;
+}
+@media all and (min-height: 1000px) and (max-height: 1080px) {
+  
+  /*Initial Page*/
+  .initialForm form{
+    width: 703px;
+  }
+  .initialForm .logoMedellin{
+    width: 350px;
+  }
+  .initialForm .title .tittleForm{
+    font-size: 32px;
+  }
+}
+@media all and (min-height: 900px) and (max-height: 1000px) {
+  
+  /*Initial Page*/
+  .initialPage{
+    padding-right: 20px;
+  }
+  .initialForm form{
+    width: 650px;
+  }
+  .initialForm .logoMedellin{
+    width: 300px;
+  }
+  .initialForm .title .tittleForm{
+    font-size: 28px;
+  }
+  .initialForm .title h1 {
+    margin: 40px 30px 40px 30px;
+  }
+  .initialForm .form .form-control {
+    height: 100px;
+  }
+  .initialForm  .inputFormInitial{
+    font-size: 26px;
+  }
+  .initialForm .btnFormInicial {
+    height: 80px;
+    margin: 40px 0;
+    font-size: 26px;
+  }
+}
+@media all and (min-height: 800px) and (max-height: 900px) {
+  
+  /*Initial Page*/
+  .initialPage{
+    padding-right: 20px;
+  }
+  .initialForm form{
+    width: 550px;
+  }
+  .initialForm .logoMedellin{
+    width: 250px;
+  }
+  .initialForm .title .tittleForm{
+    font-size: 24px;
+  }
+  .initialForm .title h1 {
+    margin: 35px 30px 35px 30px;
+  }
+  .initialForm .form .form-control {
+    height: 80px;
+    width: 450px;
+  }
+  .initialForm  .inputFormInitial{
+    font-size: 22px;
+  }
+  .initialForm .btnFormInicial {
+    height: 70px;
+    margin: 30px 0;
+    font-size: 22px;
+    width: 300px;
+  }
+}
+@media all and (max-height: 800px) {
+  
+  /*Initial Page*/
+  .initialPage{
+    padding-right: 10px;
+  }
+  .initialForm form{
+    width: 450px;
+  }
+  .initialForm .logoMedellin{
+    width: 200px;
+  }
+  .initialForm .title .tittleForm{
+    font-size: 22px;
+  }
+  .initialForm .title h1 {
+    margin: 30px;
+  }
+  .initialForm .form .form-control {
+    height: 70px;
+    width: 400px;
+    margin-bottom: 30px;
+  }
+  .initialForm  .inputFormInitial{
+    font-size: 20px;
+  }
+  .initialForm .btnFormInicial {
+    height: 60px;
+    margin: 20px 0;
+    font-size: 20px;
+    width: 250px;
+  }
+}
+
+@media all and (min-width: 1300px) and (max-width: 1600px) {
+  /*NavBar*/ 
+  .navBar{
+    padding: 7px 20px;
+  }
+  .navBar .titleNavBar{
+    font-size: 22px;
+    padding-left: 30px;
+  }
+  .navBar .nameNavBar{
+    font-size: 17px;
+  }
+  .divCardProfile{
+    width: auto;
+  }
+}
+@media all and (min-width: 1000px) and (max-width: 1300px) {
+  /*NavBar*/ 
+  .navBar{
+    padding: 7px 15px;
+  }
+  .navBar .titleNavBar{
+    font-size: 22px;
+    padding-left: 40px;
+  }
+  .navBar .nameNavBar{
+    font-size: 17px;
+  }
+  .divCardProfile{
+    width: auto;
+    height: 250px;
+  }
+  .profiles {
+    padding: 0 10px;
+    margin-top: 40px;
+  }
+  .imgCardProfile{
+    height: 145px;
+  }
+  .cardProfile .nameCard {
+    font-size: 22px;
+    bottom: 15px;
+    width: 215px;
+  }
+  .textCardProfile {
+    top: 90px;
+    width: 200px;
+    font-size: 16px;
+  }
+  .divCardProfile:hover .imgCardProfile {
+    height: 70px;
+  }
+  /*Btn Plus*/
+  .BtnPlus {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media all and (min-width: 800px) and (max-width: 1000px) {
+  /*NavBar*/ 
+  .navBar{
+    padding: 7px 15px;
+  }
+  .navBar .navBarlogoMedellin {
+    height: 58px;
+  }
+  .navBar .navBarClose {
+    height: 58px;
+  }
+  .navBar .titleNavBar{
+    font-size: 18px;
+    padding-left: 50px;
+  }
+  .navBar .nameNavBar{
+    font-size: 14px;
+  }
+  .divCardProfile{
+    width: auto;
+    height: 200px;
+  }
+  .profiles {
+    padding: 0 10px;
+    margin-top: 30px;
+  }
+  .imgCardProfile{
+    height: 110px;
+  }
+  .cardProfile .nameCard {
+    font-size: 18px;
+    bottom: 20px;
+    width: 160px;
+  }
+  .textCardProfile {
+    top: 65px;
+    width: 160px;
+    font-size: 14px;
+  }
+  .divCardProfile:hover .imgCardProfile {
+    height: 50px;
+  }
+  /*Btn Plus*/
+  .BtnPlus {
+    width: 77px;
+    height: 77px;
+  }
+  .faPlusIcon {
+    font-size: 54px;
+    color: #21B6C5;
+    transition: color 1s, font-size 0s;
+  }
+  .tableListBorder {
+    font-size: 14px;
+  }
+  .textFloatMenu h1 {
+    font-size: 18px;
+  }
+  .titleGroupFilter h1 {
+    font-size: 18px;
+  }
+  .titleGroupList h1 {
+    font-size: 18px;
+  }
+  .titleGroupFilter, .titleGroupList {
+    height: 40px;
+  }
+  .formMeeting h3 {
+    font-size: 14px;
+  }
+  .formMeetingEdit h3 {
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 800px) {
+  /*NavBar*/ 
+  .navBar{
+    padding: 10px;
+  }
+  .navBar .navBarlogoMedellin {
+    height: 50px;
+  }
+  .navBar .navBarClose {
+    height: 58px;
+  }
+  .navBar .titleNavBar{
+    font-size: 14px;
+    padding-left: 50px;
+  }
+  .navBar .nameNavBar{
+    font-size: 12px;
+  }
+  .navBar .navBarClose {
+    height: 40px;
+  }
+  .profiles {
+    margin-top: 10px;
+  }
+  .profiles .cardProfile{
+    margin: 10px 0px;
+  }
+  /*Btn Plus*/
+  .BtnPlus {
+    width: 77px;
+    height: 77px;
+  }
+  .faPlusIcon {
+    font-size: 54px;
+    color: #21B6C5;
+    transition: color 1s, font-size 0s;
+  }
+  .widthFormFilter {
+    width: 48%;
+  }
+  .formFilter {
+    height: auto;
+  }
+  .tableListBorder {
+    font-size: 12px;
+  }
+  .textFloatMenu h1 {
+    font-size: 14px;
+  }
+  .titleGroupFilter h1 {
+    font-size: 14px;
+  }
+  .titleGroupList h1 {
+    font-size: 14px;
+  }
+  .titleGroupFilter, .titleGroupList {
+    height: 40px;
+  }
+}
